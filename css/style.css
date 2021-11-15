@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    background-size: 100% 100vh;
+}
+
+.wrapper{
+
+    max-width: 1000px;
+    width: 100%;
+    background-color: #EEEE;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "";
+}
